@@ -18,3 +18,4 @@ const userMessage = 'la tua nuova password è :' + userName + userSurname + user
 // OUTPUT
 // Stampo il risultato all'utente
 alert(userMessage);
+document.getElementById('user-message').innerHTML = userMessage;
